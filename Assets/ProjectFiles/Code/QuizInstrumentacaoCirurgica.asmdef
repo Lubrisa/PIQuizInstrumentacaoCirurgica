@@ -1,0 +1,19 @@
+{
+    "name": "QuizInstrumentacaoCirurgica",
+    "rootNamespace": "Quiz",
+    "references": [
+        "GUID:b3dd0e2cc583c6e40a7be08a828cf6c2",
+        "GUID:0d8beb7f090555447a6cf5ce9e54dbb4",
+        "GUID:63ebd60d5c68886498ecfee04b5d6a12",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
