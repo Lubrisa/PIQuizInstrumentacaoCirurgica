@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.lubrisa.customtools": {
-      "version": "file:C:/Users/lanao/OneDrive - SENAC - SP/Unity/TestEnviroment/Packages/com.lubrisa.customtools",
+      "version": "file:com.lubrisa.customtools",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {}
     },
     "com.unity.2d.animation": {

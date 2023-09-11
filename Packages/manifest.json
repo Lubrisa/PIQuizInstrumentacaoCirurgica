@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.lubrisa.customtools": "file:C:/Users/lanao/OneDrive - SENAC - SP/Unity/TestEnviroment/Packages/com.lubrisa.customtools",
+    "com.lubrisa.customtools": "file:C:/Users/lanao/OneDrive - SENAC - SP/Projetos/Unity/PIQuizInstrumentacaoCirurgica/Packages/com.lubrisa.customtools",
     "com.unity.addressables": "1.21.15",
     "com.unity.cinemachine": "2.9.7",
     "com.unity.collab-proxy": "2.0.7",
