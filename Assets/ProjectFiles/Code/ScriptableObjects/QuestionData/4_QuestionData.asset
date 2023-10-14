@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c408fc4c543786f4291f82179a0bbcde, type: 3}
   m_Name: 4_QuestionData
   m_EditorClassIdentifier: 
-  <Question>k__BackingField: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+  <SurgeryToolImage>k__BackingField: {fileID: -7717787900440260812, guid: 13eb0ce191741454a8857a51aa9b64d8, type: 3}
   <Answers>k__BackingField:
-  - <Answer>k__BackingField: Answer 1
+  - <Answer>k__BackingField: "Pin\xE7a Pean"
     <IsTrue>k__BackingField: 0
-  - <Answer>k__BackingField: Answer 2
+  - <Answer>k__BackingField: "Pin\xE7a Halsted Mosquito"
     <IsTrue>k__BackingField: 0
-  - <Answer>k__BackingField: Answer 3
-    <IsTrue>k__BackingField: 0
-  - <Answer>k__BackingField: Answer 4
+  - <Answer>k__BackingField: "Pin\xE7a Cheron"
     <IsTrue>k__BackingField: 1
+  - <Answer>k__BackingField: "Pin\xE7a Magil"
+    <IsTrue>k__BackingField: 0
   - <Answer>k__BackingField: 
     <IsTrue>k__BackingField: 0

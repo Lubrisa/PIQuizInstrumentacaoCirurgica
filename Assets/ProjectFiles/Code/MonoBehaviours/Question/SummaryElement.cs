@@ -2,6 +2,7 @@ using Quiz.Data;
 using System.Text;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Quiz
 {
@@ -10,9 +11,11 @@ namespace Quiz
         public void FillInfo(QuestionData answeredQuestionData)
         {
             TMP_Text text = GetComponentInChildren<TextMeshProUGUI>();
+            Image image = GetComponentInChildren<Image>();
+           
+            image.sprite = answeredQuestionData.SurgeryToolImage;
 
             StringBuilder stringBuilder = new();
-            stringBuilder.Append("Pergunta: " + answeredQuestionData.SurgeryToolImage + "\n");
             foreach (var answerData in answeredQuestionData.Answers)
             {
                 if (answerData.IsTrue)

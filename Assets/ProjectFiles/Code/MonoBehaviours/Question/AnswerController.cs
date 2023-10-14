@@ -29,7 +29,6 @@ namespace Quiz
         /// <param name="currentQuestion"> The question from wich the data will be used. </param>
         public void UpdateAnswerData(QuestionData currentQuestion)
         {
-            Debug.Log("A");
             m_currentQuestion = currentQuestion;
 
             m_answerID = SortID();
