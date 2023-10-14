@@ -9,9 +9,9 @@ namespace Quiz.Data
     public class QuestionData : ScriptableObject
     {
         /// <summary>
-        /// The question text.
+        /// The surgery tool image.
         /// </summary>
-        [field: SerializeField] public string Question { get; private set; }
+        [field: SerializeField] public Sprite SurgeryToolImage { get; private set; }
 
         /// <summary>
         /// The array of possible answers.

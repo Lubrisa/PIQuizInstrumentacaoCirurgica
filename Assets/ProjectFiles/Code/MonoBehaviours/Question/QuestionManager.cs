@@ -17,7 +17,13 @@ namespace Quiz
         /// </summary>
         public static QuestionManager Instance { get; private set; }
 
+        /// <summary>
+        /// The list of questions answered.
+        /// </summary>
         public List<QuestionData> QuestionsAnswered { get; private set; } = new List<QuestionData>();
+        /// <summary>
+        /// The current score of the player.
+        /// </summary>
         public int Score { get; private set; }
 
         /// <summary>
@@ -30,8 +36,8 @@ namespace Quiz
         /// </summary>
         private QuestionData m_currentQuestionData;
 
-        [Tooltip("The event that will update the question text")]
-        [SerializeField] private StringGameEvent m_OnQuestionTextUpdate;
+        [Tooltip("The event that will update the tool image")]
+        [SerializeField] private SpriteGameEvent m_OnSurgeryToolUpdate;
 
         [Tooltip("The event that will be raised when the question is updated")]
         [SerializeField] private QuestionDataGameEvent m_OnQuestionDataUpdate;
@@ -78,7 +84,7 @@ namespace Quiz
 
             m_currentQuestionData = m_questionsData[questionID];
 
-            m_OnQuestionTextUpdate?.Raise(m_currentQuestionData.Question);
+            m_OnSurgeryToolUpdate?.Raise(m_currentQuestionData.SurgeryToolImage);
             m_OnQuestionDataUpdate?.Raise(m_currentQuestionData);
 
             m_OnQuizScreenLoad?.Raise();

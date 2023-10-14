@@ -12,7 +12,7 @@ namespace Quiz
             TMP_Text text = GetComponentInChildren<TextMeshProUGUI>();
 
             StringBuilder stringBuilder = new();
-            stringBuilder.Append("Pergunta: " + answeredQuestionData.Question + "\n");
+            stringBuilder.Append("Pergunta: " + answeredQuestionData.SurgeryToolImage + "\n");
             foreach (var answerData in answeredQuestionData.Answers)
             {
                 if (answerData.IsTrue)
