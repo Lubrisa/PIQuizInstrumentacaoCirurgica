@@ -7,15 +7,10 @@ namespace Quiz
 {
     public class MainMenuBottons : MonoBehaviour
     {
-        public void StartButton()
-        {
-            SceneManager.LoadScene(1);
-        }
-        public void CreditsButton()
-        {
-            SceneManager.LoadScene(5);
-        }
-
+        public void StartButton() => SceneManager.LoadScene(1);
+        
+        public void CreditsButton() => SceneManager.LoadScene(5);
+      
         public void ExitButton()
         {
             Application.Quit();
