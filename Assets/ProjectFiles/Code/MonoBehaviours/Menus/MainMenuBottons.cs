@@ -15,7 +15,7 @@ namespace Quiz
         {
             Application.Quit();
 #if UNITY_2023_1_OR_NEWER
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
 #endif
         }
 

@@ -1,6 +1,7 @@
 using System.IO;
 using UnityEditor;
 
+
 namespace CustomEditorFeatures
 {
     /// <summary>
@@ -8,6 +9,7 @@ namespace CustomEditorFeatures
     /// </summary>
     public static class CustomFolderStructure
     {
+#if UNITY_EDITOR
         /// <summary>
         /// A array with every file that needs to be generated in the project start.
         /// </summary>
@@ -103,5 +105,6 @@ namespace CustomEditorFeatures
                 }
             }
         }
+#endif
     }
 }
