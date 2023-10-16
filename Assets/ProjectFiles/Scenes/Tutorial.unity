@@ -582,8 +582,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -372, y: -16}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -418, y: -45.735}
+  m_SizeDelta: {x: 92.893, y: 91.471}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &642547611
 MonoBehaviour:
@@ -857,7 +857,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 564, y: -397}
+  m_AnchoredPosition: {x: 537, y: -425}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1884421493
@@ -1056,11 +1056,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "TUTORIAL\nOl\xE1 jogador(a) bem-vindo ao quiz de instrumenta\xE7\xE3o
-    cir\xFArgica da turma do SENAC! \r\n\r\nVoc\xEA ver\xE1 10 quest\xF5es logo a
-    seguir com 4 alternativas e somente uma correta, responda clicando na alternativa
-    correta em um tempo de 10 segundos para cada quest\xE3o, no final do quiz voc\xEA
-    ver\xE1 quantas respondeu corretamente, boa sorte!"
+  m_text: "TUTORIAL\n\nOl\xE1 jogador(a), bem-vindo(a) ao quiz da turma de instrumenta\xE7\xE3o
+    cir\xFArgica da turma do SENAC! \r\n\r\nLogo a seguir, voc\xEA ser\xE1 desafiado(a)
+    acertar 10 quest\xF5es de m\xFAltipla escolha, contanto com quatro alternativas
+    para cada quest\xE3o. Tente responder antes de 10 segundos, quando a pr\xF3xima
+    pergunta ser\xE1 mostrada automaticamente.\n\nBoa sorte!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -211.1311, y: 0, z: -240.32324, w: -778.4001}
+  m_margin: {x: -382.13394, y: 0, z: -280.92734, w: -778.4001}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
