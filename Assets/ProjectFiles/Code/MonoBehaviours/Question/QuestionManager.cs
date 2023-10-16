@@ -16,6 +16,10 @@ namespace Quiz
         /// The manager instance.
         /// </summary>
         public static QuestionManager Instance { get; private set; }
+        [Tooltip("Quantity of questions to be answered")]
+        [SerializeField] 
+        private int m_questionQuantity;
+        private int m_questionCount = 0;
 
         /// <summary>
         /// The list of questions answered.
@@ -88,6 +92,8 @@ namespace Quiz
             m_OnQuestionDataUpdate?.Raise(m_currentQuestionData);
 
             m_OnQuizScreenLoad?.Raise();
+
+            m_questionCount++;
         }
 
         public void AddAnsweredQuestion(QuestionData answeredQuestion) => QuestionsAnswered.Add(answeredQuestion);
@@ -100,8 +106,8 @@ namespace Quiz
         public void LoadNextQuestion()
         {
             m_questionsData.Remove(m_currentQuestionData);
-
-            if (m_questionsData.Count > 0) SceneManager.LoadScene(2);
+            
+            if (m_questionCount < m_questionQuantity ) SceneManager.LoadScene(2);
             else
             {
                 SceneManager.sceneLoaded -= OnSceneLoaded;

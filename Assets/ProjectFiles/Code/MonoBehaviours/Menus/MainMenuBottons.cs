@@ -9,7 +9,7 @@ namespace Quiz
     {
         public void StartButton() => SceneManager.LoadScene(1);
         
-        public void CreditsButton() => SceneManager.LoadScene(5);
+        public void CreditsButton() => SceneManager.LoadScene(4);
       
         public void ExitButton()
         {

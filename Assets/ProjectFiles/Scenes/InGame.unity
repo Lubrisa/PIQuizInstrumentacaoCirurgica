@@ -2696,6 +2696,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c0191b1bf6dea64caf4ef17eb3ef8d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_questionQuantity: 10
   m_OnSurgeryToolUpdate: {fileID: 11400000, guid: 0ff0375b03a92474c99f2235e78ce04e, type: 2}
   m_OnQuestionDataUpdate: {fileID: 11400000, guid: 92d4da2b56298e643a2ec51b2b88a4bb, type: 2}
   m_OnQuizScreenLoad: {fileID: 11400000, guid: 8ca1c3295c2288845b5d745a458b3896, type: 2}
