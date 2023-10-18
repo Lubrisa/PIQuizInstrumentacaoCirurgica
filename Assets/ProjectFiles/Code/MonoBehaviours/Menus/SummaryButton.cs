@@ -5,7 +5,17 @@ namespace Quiz
 {
     public class SummaryButton : MonoBehaviour
     {
+        public AudioSource AudioClick;
+        public void MainMenu()
+        {
+            AudioClick.Play();
+            Invoke("DelaySceneButton", 0.2f);
+        }
 
-        public void MainMenu() => SceneManager.LoadScene(0);
+        //Delay entre as cenas
+        public void DelaySceneButton() //Delay do botão play
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }
