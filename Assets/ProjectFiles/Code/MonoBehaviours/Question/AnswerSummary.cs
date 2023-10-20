@@ -14,6 +14,8 @@ namespace Quiz
                 instance.FillInfo(questionData);
                 questionData.ResetPlayerAnswer();
             }
+
+            QuestionManager.Instance.ClearInstance();
         }
     }
 }

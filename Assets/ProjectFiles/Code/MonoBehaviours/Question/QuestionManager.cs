@@ -1,6 +1,7 @@
 using Quiz.Data;
 using ScriptableObjectArchitecture;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -17,7 +18,7 @@ namespace Quiz
         /// </summary>
         public static QuestionManager Instance { get; private set; }
         [Tooltip("Quantity of questions to be answered")]
-        [SerializeField] 
+        [SerializeField]
         private int m_questionQuantity;
         private int m_questionCount = 0;
 
@@ -63,15 +64,7 @@ namespace Quiz
         /// The injection method for this component.
         /// </summary>
         [Zenject.Inject]
-        private void Init(QuestionData[] questionsData)
-        {
-            m_questionsData = new List<QuestionData>();
-
-            foreach (var question in questionsData)
-            {
-                m_questionsData.Add(question);
-            }
-        }
+        private void Init(QuestionData[] questionsData) => m_questionsData = questionsData.ToList();
 
         private void Start()
         {
@@ -106,13 +99,19 @@ namespace Quiz
         public void LoadNextQuestion()
         {
             m_questionsData.Remove(m_currentQuestionData);
-            
-            if (m_questionCount < m_questionQuantity ) SceneManager.LoadScene(2);
+
+            if (m_questionCount < m_questionQuantity) SceneManager.LoadScene(2);
             else
             {
                 SceneManager.sceneLoaded -= OnSceneLoaded;
                 SceneManager.LoadScene(3);
             }
+        }
+
+        public void ClearInstance()
+        {
+            Instance = null;
+            Destroy(gameObject);
         }
     }
 }
