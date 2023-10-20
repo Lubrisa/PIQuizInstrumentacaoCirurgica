@@ -12,7 +12,7 @@ namespace Quiz
         {
             TMP_Text text = GetComponentInChildren<TextMeshProUGUI>();
             Image image = GetComponentInChildren<Image>();
-           
+
             image.sprite = answeredQuestionData.SurgeryToolImage;
 
             StringBuilder stringBuilder = new();
