@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <SurgeryToolImage>k__BackingField: {fileID: 8782086469033549920, guid: 3ccff4bc158c8394faab00844cb877a2, type: 3}
   <Answers>k__BackingField:
-  - <Answer>k__BackingField: "Pin\xE7a Duvan Collin"
+  - <Answer>k__BackingField: "Pin\xE7a Duval Collin"
     <IsTrue>k__BackingField: 1
   - <Answer>k__BackingField: "Pin\xE7a Tri\xE2ngulo"
     <IsTrue>k__BackingField: 0
   - <Answer>k__BackingField: "Pincel Tri\xE2ngulo"
     <IsTrue>k__BackingField: 0
-  - <Answer>k__BackingField: Pincel Duvan Collin
+  - <Answer>k__BackingField: Pincel Duval Collin
     <IsTrue>k__BackingField: 0
   - <Answer>k__BackingField: 
     <IsTrue>k__BackingField: 0
