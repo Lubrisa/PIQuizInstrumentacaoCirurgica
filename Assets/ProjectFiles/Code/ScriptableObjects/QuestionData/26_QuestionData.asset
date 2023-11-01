@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c408fc4c543786f4291f82179a0bbcde, type: 3}
-  m_Name: 18_QuestionData
+  m_Name: 26_QuestionData
   m_EditorClassIdentifier: 
-  <SurgeryToolImage>k__BackingField: {fileID: 8782086469033549920, guid: 3ccff4bc158c8394faab00844cb877a2, type: 3}
+  <SurgeryToolImage>k__BackingField: {fileID: 323624436129705170, guid: 08e9d2e9056283d45b9a67f64f2756c8, type: 3}
   <Answers>k__BackingField:
-  - <Answer>k__BackingField: "Pin\xE7a Duval "
+  - <Answer>k__BackingField: Afastador Doyen
     <IsTrue>k__BackingField: 1
-  - <Answer>k__BackingField: "Pin\xE7a Tri\xE2ngulo"
+  - <Answer>k__BackingField: Afastador Gosset
     <IsTrue>k__BackingField: 0
-  - <Answer>k__BackingField: "Pincel Tri\xE2ngulo"
+  - <Answer>k__BackingField: 'Afastador Farabeuf '
     <IsTrue>k__BackingField: 0
-  - <Answer>k__BackingField: Pincel Duval Collin
+  - <Answer>k__BackingField: "Afastador Doyen com Fibra \xD3tica"
     <IsTrue>k__BackingField: 0
   - <Answer>k__BackingField: 
     <IsTrue>k__BackingField: 0
